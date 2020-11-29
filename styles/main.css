@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 
 #home-painting {
-    position: fixed;
+    position: relative;
     width: 50%;
     left: 50%;
 }
