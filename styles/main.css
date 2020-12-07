@@ -1,8 +1,7 @@
 body {
     background: #101010;
     color: #ffffff;
-    font-family: Tahoma;
-    margin: 0;
+    font-family: Tahoma, sans-serif;
 }
 
 /*
@@ -81,27 +80,31 @@ body {
     home page layout
 */
 
-#home-painting {
-    position: relative;
-    width: 50%;
-    left: 50%;
+#homepage {
+    display: block;
+    left: 0px;
+    width: 100%;
 }
 
-#home-painting img {
-    margin: 0 0 133px -210px;
+#homepage img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-#home-painting h1, #home-painting h2 {
+#homepage h1, #homepage h2 {
+    display: block;
     overflow: hidden;
     white-space: nowrap;
-    margin: 0;
-    width: 200%;
+    width: 100%;
     text-align: center;
-    transform: translateX(-50%);
     font-size: 350%;
+    margin: auto;
 }
 
-#home-painting h2 {
+#homepage h2 {
     color: #777777;
     font-size: 242%;
+    margin-bottom: 15vh;
 }
