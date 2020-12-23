@@ -1,0 +1,41 @@
+h1 {
+    display: flex;
+    justify-self: center;
+    font-size: 65px;
+}
+
+h2 {
+    display: flex;
+    justify-self: center;
+    color: #777777;
+    font-size: 45px;
+}
+
+#homepage {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(3,auto);
+    justify-content: center;
+}
+
+#homepage img {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+@media(max-width: 840px){
+    #homepage img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media(max-width: 1450px){
+    h1{
+        font-size: 4.5vw;
+    }
+    h2{
+        font-size: 3.115vw;
+    }
+}
