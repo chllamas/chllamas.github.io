@@ -66,3 +66,13 @@
     padding-right: 8px;
     margin: 0;
 }
+
+@media (max-width: 400px) {
+    .left-nav {
+        display: none;
+    }
+
+    .right-nav {
+        display: none;
+    }
+}
