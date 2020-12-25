@@ -3,9 +3,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>chllamas - Chris Llamas</title>
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/home.css">
     </head>
     <div class="nav">
         <img src="images/chllamas.png" alt="chllamas logo" id="website-logo">
@@ -15,14 +16,15 @@
             <a href="contact.html" class="nav-link">/contact</a>
         </div>
         <div class="right-nav">
-            <a href="javascript:void(0)" id="HB" onclick="openHB()">yo</a>
+            <a href="javascript:void(0)" id="HB" onclick="myFunction()"><img src="images/Hamburger_icon.png" alt="Toggle dropdown menu"></a>
             <a href="https://www.github.com/chllamas/" target="_blank" rel="noreferrer noopener" class="prof-link"><img src="images/GitHub-Mark-Light-32px.png" alt="Link to GitHub profile" class="link-icon"></a>
             <a href="https://www.linkedin.com/in/chllamas/" target="_blank" rel="noreferrer noopener" class="prof-link"><img src="images/LI-In-Bug.png" alt="Link to LinkedIn profile" class="link-icon"></a>
         </div>
-        <div class="dropdown-links">
+        <div id="dropdown-links">
             <a href="index.html" class="dd-link">home</a>
             <a href="work.html" id="active-dropdown" class="dd-link">work</a>
             <a href="contact.html" class="dd-link">contact</a>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </html>
