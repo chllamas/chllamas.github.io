@@ -1,14 +1,6 @@
-h1 {
+h1, h2 {
     display: flex;
     justify-self: center;
-    font-size: 65px;
-}
-
-h2 {
-    display: flex;
-    justify-self: center;
-    color: #777777;
-    font-size: 45px;
 }
 
 #homepage {
