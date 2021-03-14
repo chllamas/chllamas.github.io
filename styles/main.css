@@ -43,10 +43,8 @@ h2 {
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-color: #5a5a5a;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
+    text-decoration: none;
+    border-bottom: 3px solid #5a5a5a;
 }
 
 .right-nav {
@@ -67,10 +65,8 @@ h2 {
 }
 
 #active {
-    text-decoration: underline;
-    text-decoration-color: #E0CC35;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
+    text-decoration: none;
+    border-bottom: 3px solid #E0CC35;
 }
 
 #website-logo {

@@ -7,6 +7,21 @@
         <title>chllamas - Work</title>
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/work.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".proj-block").click(function() {
+                    window.open ($(this).find("a:first").attr("href"));
+                    return false;
+                });
+
+                $(".proj-block").hover(function () {
+                    window.status = $(this).find("a:first").attr("href");
+                }, function () {
+                    window.status = "";
+                });
+            });
+        </script>
     </head>
     <div class="nav">
         <img src="images/chllamas.png" alt="chllamas logo" id="website-logo">
@@ -36,21 +51,28 @@
             <li>C++</li>
             <li>Java</li>
             <li>Python</li>
+            <li>Perl</li>
         </ul>
         <h1>Projects</h1>
         <div class="proj-block">
-            <a class="proj-link" href="travis-scott-tribute-page.html">Travis Scott Tribute Page</a>
-            <img class="proj-img" src="images/travis-scott-screenshot.png">
-            <p class="proj-desc">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestiae corrupti, quidem facilis culpa beatae at aut itaque explicabo nemo pariatur, enim corporis ipsam cum! Dignissimos natus labore a error!
-            </p>
+            <div class="proj-grid">
+                <a class="proj-link" href="travis-scott-tribute-page.html">Travis Scott Tribute Page</a>
+                <img class="proj-img" src="images/travis-scott-screenshot.png">
+                <p class="proj-desc">
+                    What started as a quick project in learning some quick CSS from freecodecamp.org spiraled into a true passion
+                    for finalizing this to a well-made tribute page.
+                </p>
+            </div>
         </div>
         <div class="proj-block">
-            <a class="proj-link" href="kid-cudi-motm3-project.html">Kid Cudi - MOTM3 Album Page</a>
-            <img class="proj-img" src="images/kid-cudi-screenshot.png">
-            <p class="proj-desc">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestiae corrupti, quidem facilis culpa beatae at aut itaque explicabo nemo pariatur, enim corporis ipsam cum! Dignissimos natus labore a error!
-            </p>
+            <div class="proj-grid">
+                <a class="proj-link" href="kid-cudi-motm3-project.html">Kid Cudi - MOTM3 Album Page</a>
+                <img class="proj-img" src="images/kid-cudi-screenshot.png">
+                <p class="proj-desc">
+                    A quick class project that I challenged myself to complete in under 2 hours.  Slightly modified for
+                    use on the personal website.
+                </p>
+            </div>
         </div>
     </div>
     <script src="js/script.js"></script>
