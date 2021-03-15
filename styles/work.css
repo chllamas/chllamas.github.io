@@ -2,6 +2,23 @@ h1 {
     padding-bottom: 25px;
 }
 
+h2 {
+    padding-bottom: 15px;
+}
+
+.body-paragraph {
+    color: #ffffff;
+    width: 60vw;
+    font-size: 20px;
+    padding-bottom: 25px;
+    justify-self: center;
+}
+
+.main-body {
+    display: grid;
+    justify-content: center;
+}
+
 .projects {
     display: grid;
     justify-content: center;
@@ -57,9 +74,17 @@ h1 {
     background: none;
 }
 
+.highlight {
+    color:  #E0CC35;
+}
+
 @media (max-width: 720px) {
     h1 {
         text-align: center;
+    }
+
+    .body-paragraph {
+        width: 85vw;
     }
 
     .proj-block {
@@ -75,7 +100,7 @@ h1 {
         grid-template-columns: 100%;
         grid-template-rows: 35px 150px 100px;
     }
-    
+
     .proj-link {
         padding: 0;
         margin: 0;
